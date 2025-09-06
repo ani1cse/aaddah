@@ -1,0 +1,9 @@
+{
+	"devDependencies": {
+		"typescript": "^5.9.2",
+		"@types/node": "^24.3.1",
+		"scripts": {
+			"dev": "concurrently \"pnpm --filter api dev\" \"pnpm --filter web dev\""
+			}
+	}
+}
